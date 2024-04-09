@@ -10,9 +10,9 @@ console.error('Alert');
 
 console.warn('warning');
 
-console.table({name : 'Brad', email : 'brad@gmail.com'});
+console.table({name : 'Mrunal', email : 'mrunal@gmail.com'});
 
-console.group('simpe');
+console.group('simple');
 console.log(x);
 console.error('Alert');
 console.warn('warning');
@@ -21,3 +21,4 @@ console.groupEnd();
 const styles = 'padding: 10px; background-color: pink; color: green';
 
 console.log('%cHello world', styles);
+
