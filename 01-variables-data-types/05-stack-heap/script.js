@@ -5,7 +5,7 @@ const age = 30;
 
 // Reference values are stored on the heap
 const person = {
-    name: 'Kalpt',
+    name: 'Kalpit',
     age: 40
 };
 
