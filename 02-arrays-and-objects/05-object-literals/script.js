@@ -24,10 +24,17 @@ delete person.age;
 
 person.hasGirlfriend = true;
 
-person.greet = function() {
+person.greet = function () {
     console.log(`Hello, my name is ${this.name}`);
-};
+}
 
-x = person;
+person.greet();
+
+const person2 = {
+ 'first name': 'Dipti',
+ 'last name' : 'Soshte',
+}
+
+x = person2['first name']
 
 console.log(x);
