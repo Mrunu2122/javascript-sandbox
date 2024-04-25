@@ -17,4 +17,17 @@ x = person['age'];
 x = person.address.state;
 x = person.hobbies[0];
 
+person.name = 'Kalpit Thakur';
+person['isStudent'] = false;
+
+delete person.age;
+
+person.hasGirlfriend = true;
+
+person.greet = function() {
+    console.log(`Hello, my name is ${this.name}`);
+};
+
+x = person;
+
 console.log(x);
