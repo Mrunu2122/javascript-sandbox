@@ -37,4 +37,10 @@ x = Object.keys(todo);
 
 x = Object.keys(todo).length;
 
+x = Object.values(todo);
+
+x = Object.entries(todo);
+
+x = todo.hasOwnProperty('age');
+
 console.log(x);
